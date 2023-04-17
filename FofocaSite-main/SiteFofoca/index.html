@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FofoCoders</title>
+  <link rel="shortcut icon" href="imagem/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styleNoti.css"><!--CSS Alexandre e Jucilene-->
+</head>
+
+<body>
+  <header class="menu">
+    <!--Logo Fofocoders-->
+    <h1 class="logo" href="index.html">Fofo<i>Coders</i></h1><div id="homeAncora"></div>
+    <nav><!--Começo de Menu Para outras pages-->
+      <ul>
+        <li>
+          <a href="index.html"><b>Home</b></a>
+          <a href="noticias.html"> <b>Notícias</b></a>
+          <a href="contato.html"><b>Contatos</b></a>
+          <a href="formulario.html"><b>Seja um Fofocoders</b></a>
+        </li>
+      </ul>
+    </nav><!--Fim de Menus para outras pages-->
+  </header>
+  <main><!--conteudo principal-->
+    <!--Começo do carrosel-->
+    <section class="container"><!--Aqui dentro que vai meu carrosel-->
+      <!--Botões carossel-->
+      <button class="arrow-left control" aria-label="Previous image">◀</button>
+      <button class="arrow-right control" aria-label="Next Image">▶</button>
+      <!--Fim Botões Carrosel-->
+      <div class="gallery-wrapper"><!--Aqui o tamanho é fixo-->
+        <div class="gallery"><!--Aqui vai ter um tamanho enorme e aqui que vai o efeito de carrosel-->
+          <img src="img-noticias/rhiana.jpg" alt="" srcset="" class="item current-item">
+          <img src="img-noticias/anita_preta.jpg" alt="" srcset="" class="item">
+          <img src="img-noticias/padre.jpg" alt="" srcset="" class="item">
+          <img src="img-noticias/hailey-bieber.jpg" alt="" srcset="" class="item">     
+        </div>
+      </div>
+    </section><!--Fim carrosel-->
+  </main>
+  <section class="area-fofocas">
+    <section class="fofocas"><!--Talvez precise criar uma class para trabalhar aqui-->
+      <h1>Últimas Fofocas</h1>
+      <section class="news">
+        <div class="card-container">
+          <div class="card">
+            <img src="img-noticias/padre.jpg" alt="Card image">
+            <div class="card-content">
+              <h2 class="card-title">Acusado de gordofobia</h2>
+              <p class="card-text">O padre Fábio de Melo se retratou nesta sexta-feira, 14, após ser acusado de gordofobia por
+                compartilhar...</p>
+              <a href="fofocasDestaque/fofoc6.html" class="card-button">Leia mais</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="img-noticias/preta.jpg" alt="Card image">
+            <div class="card-content">
+              <h2 class="card-title">Preta Gil: casamento chega ao fim, afirma colunista</h2>
+              <p class="card-text">O colunista Tiago Sodré afirma que o casamento de sete anos de Preta Gil e Rodrigo Godoy chegou
+                ao fim. O casal já enfrentava uma crise...</p>
+              <a href="fofocasDestaque/fofoc1.html" class="card-button">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <aside class="menu-lateral"><!--Começo de menu lateral-->
+      <!--Menu com links de ancoragem-->
+      <nav class="btn-lateral">
+        <ul>
+          <li><a href="#homeAncora">Voltar Para Home</a></li>
+          <li><a href="#redes">Conheça nossas Redes</a></li>
+        </ul>
+      </nav>
+      <!--Fim menu lateral-->
+      <div class="banner"><!--imagem de propaganda-->
+        <a href="https://www.adobe.com" target="_blank"><img src="imagem/banner.jpg" alt=""></a>
+      </div>
+    </aside>
+  </section>
+  <!--Começo footer-->
+  <footer>
+    <section class="footer">
+      <p id="redes">Siga-nos nas redes sociais</p>
+      <br>
+      <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="imagem/insta.png"
+          alt="instagram"></a>
+      <a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank"><img src="imagem/linkedin.png"
+          alt="linkedin"></a>
+      <a href="https://soulcode.com/" target="_blank"><img src="imagem/SoulCode.png" alt="soulcode"></a>
+      <br>
+    </section>
+    <p id="footer_copyright">&copy; 2023 - Soulcode Academy</p>
+  </footer>
+  <!--Fim footer-->
+  <script src="slider.js"></script><!--Código JS-->
+</body>
+
+</html>
